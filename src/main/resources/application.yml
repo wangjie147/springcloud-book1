@@ -1,0 +1,11 @@
+my:
+   age: 123
+   name: wangjie
+   number: ${random.int}
+   uuid : ${random.uuid}
+   max : ${random.int(10)}
+   value: ${random.value}
+   greeting: hi ,i ${my.name}
+spring:
+  profiles:
+    active: dev
